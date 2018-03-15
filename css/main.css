@@ -98,26 +98,53 @@ textarea {
    ========================================================================== */
 
 body {
-    background-color: #222222;
     width: auto;
+    background-color: #415466;
 }
 
 p {
  color: white;
 }
 
-section {
+#hero {
     height: 100vh;
-    margin: 0 50px 0 50px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+section {
+    padding: 0 150px 0 150px;
+}
+
+section:nth-child(odd) {
+    background-color: white;
+}
+
+section:nth-child(odd)  p {
+    color: black;
+}
+
+.white {
     color: white;
     text-align: center;
 }
 
-a {
-    color: white;
+.blue {
+    color: #415466;
+    text-align: center;
+    padding: 25px 0 15px 0;
+}
+
+.card {
+    text-align: center;
+    border: none;
+}
+
+.fa-chevron-down {
+    color: white !important;
+}
+
+.svg-inline--fa {
+    width: auto !important;
+    color: #415466;
 }
 
 #scroll-down {
@@ -126,19 +153,29 @@ a {
    left: 49%;
 }
 
-.intro {
-    position: absolute;
-    width: 100%;
+.about {
+    padding-bottom: 25px;
+}
+
+.icons {
     text-align: center;
 }
 
-.btn {
-    border: 2px white solid;
+.icons > a {
+    padding: 0 5px 0 5px;
+    color: #415466;
+}
+
+.intro {
+    width: auto;
+    text-align: center;
 }
 
 .highlight {
-    color: orange;
+    color: #a4d4ff;
 }
+
+
 
 
 

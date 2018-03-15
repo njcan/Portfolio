@@ -33,46 +33,95 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <!-- Add your site or application content here -->
-        <section class="hero">
+        <section id="hero" class="hero">
             <div class="container-fluid intro">
-                <h1>Hello, I'm <span class="highlight">Nicholas Cantner</span>.</h1>
-                <hr size="""/>
+                <h1 class="white">Hello, I'm <span class="highlight">Nicholas Cantner</span>.</h1>
+                <hr size="my-4"/>
                 <p>I'm a full-stack web developer looking to join an exciting, fast-paced environment that utilizes modern web design practices and processes to design, build, and launch websites.</p>
             </div>
             <p>
-                <a id="scroll-down" href="#main">
+                <a id="scroll-down" href="#about">
                     <i class="fas fa-chevron-down fa-2x"></i>
                 </a>
             </p>
         </section>
 
-        <nav class="sticky-top">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
-
-        <section id="main">
+        <section id="about">
             <div class="container-fluid">
-                <h2>About Me</h2>
-                <hr class="my-4"/>
+                <h2 class="blue">About Me</h2>
+                <div class="about">
+                    <p>I'm Nick. I'm 24 and currently a resident of Maryland. I graduated with my Bachelor's of Science
+                        in
+                        Computer Science in May of 2016 from the University of Maryland, Baltimore County, or UMBC for
+                        short. I have an unrelenting passion for all things powered by science and technology.</p>
+                    <p>Originally I learned how to program with a desire to build games, but I quickly found out there
+                        is
+                        much more you can do with software engineering. So far, my passion and skill set has allowed me
+                        to
+                        work for some amazing companies, ranging from the United States Army Research Lab to the Space
+                        Telescope Science Institute. While at the US Army Research Lab, I was part of a team that lead
+                        an
+                        initiative to build a High-Resolution, Interactive, and Collaborative Data Visualization
+                        Framework
+                        for Large-Scale Data Analysis. At STScI, I was a full-stack web developer that employed the use
+                        of
+                        Jahia, an enterprise level content management system, to build and deploy sites such as <a href="https://www.stsci.edu">www.stsci.edu</a> and <a href="https://jwst.stsci.edu">jwst.stsci.edu</a>.
+                    </p>
+                </div>
+
                 <div class="row">
-                    <div class="col-3">
-                        <img src="/img/nick-snowboard.JPG" alt="A photo of myself at whitetail resort"/>
+                    <div class="col-4">
+                        <div class="card">
+                            <i class="fas fa-file-code fa-5x"></i>
+                            <div class="card-body">
+                                <p class="card-text">I'm primarily a back-end engineer specializing in J2EE technologies such as Spring and REST, along with HTML5 and CSS3 proficiency.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-9">
-                        <p>I'm Nick. I'm 24 and currently a resident of Timonium, Maryland. I graduated with my Bachelor's of Science in Computer Science in May of 2016 from the University of Maryland, Baltimore County, or UMBC for short.</p>
+
+                    <div class="col-4">
+                        <div class="card">
+                            <i class="fas fa-users fa-5x"></i>
+                            <div class="card-body">
+                                <p class="card-text">The customer always comes first. I have experience collaborating with designers, developers, and customers in both small and large team environments.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="card">
+                            <i class="fas fa-desktop fa-5x"></i>
+                            <div class="card-body">
+                                <p class="card-text">I have experience developing in a variety of environments, such as Linux, Windows, and macOS.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container-fluid">
+                <h2 class="white">My Work</h2>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="icons">
+                <h2 class="blue">Contact Me</h2>
+                <p>Currently, I am for hire and would love to join your team.</p>
+                <a target="_blank" href="https://www.linkedin.com/in/nicholas-cantner-61345993">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a target="_blank" href="mailto:cantnernick@hotmail.com">
+                    <i class="fas fa-envelope fa-2x"></i>
+                </a>
+                <a target="_blank" href="https://github.com/njcan">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a target="_blank" href="/doc/Resume.pdf">
+                    <i class="fas fa-file-alt fa-2x"></i>
+                </a>
             </div>
         </section>
 
